@@ -1,4 +1,4 @@
-**GitHub Mobile Application Description: Fitness Tracker**
+**GitHub Mobile Application: Fitness Tracker**
 
 **Overview:**
 Our project is an innovative mobile application designed to empower individuals on their journey to a healthier and fitter lifestyle. With a user-friendly interface and a suite of essential features, our Fitness Tracker app is a comprehensive solution for anyone looking to achieve their fitness goals, monitor their physical activity, and enhance their overall wellbeing.
