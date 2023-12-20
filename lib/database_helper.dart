@@ -17,11 +17,11 @@ class DatabaseHelper {
     'password': 'cool1',
   };
 
-  DatabaseHelper._createInstance(); // Named constructor to create an instance of DatabaseHelper
+  DatabaseHelper._createInstance();
 
   factory DatabaseHelper() {
     if (_databaseHelper == null) {
-      _databaseHelper = DatabaseHelper._createInstance(); // This is executed only once, a singleton object
+      _databaseHelper = DatabaseHelper._createInstance(); // executed only once since singleton object
     }
     return _databaseHelper!;
   }
@@ -37,7 +37,6 @@ class DatabaseHelper {
     String databasesPath = await getDatabasesPath();
     String path = join(databasesPath, 'user.db');
 
-    // Open/create the database at a given path
     var userDatabase = await openDatabase(
       path,
       version: 1,
@@ -55,7 +54,6 @@ class DatabaseHelper {
       )
     ''');
 
-    // Insert hardcoded user into the table
     await insertUser(hardcodedUser);
   }
 

@@ -15,7 +15,7 @@ class _LocationPageState extends State<LocationPage> {
   @override
   void initState() {
     super.initState();
-    coordinates = ''; // Initialize with an empty string
+    coordinates = '';
     _getLocation();
   }
 
